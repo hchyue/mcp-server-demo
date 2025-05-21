@@ -13,13 +13,22 @@
 git clone https://github.com/hchyue/mcp-server-demo.git
 cd mcp-server-demo
 ```
-### 执行
+
+### 运行环境
 ```
 # Create a virtual environment and install dependencies
 # 如何没有安装uv，可以执行下面这个命令，如果已经安装，可以跳过
+
+# macOS
 pip3 install uv --break-system-packages
 
+# Linux(ubuntu)
+pip3 install uv --break-system-packages
 
+```
+
+### 执行
+```
 # We support using Python 3.10, 3.11, 3.12
 uv venv .mcpvenv --python=3.10
 
